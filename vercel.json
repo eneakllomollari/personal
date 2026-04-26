@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/wedding",
+      "destination": "https://our-wedding-beta-ten.vercel.app/wedding"
+    },
+    {
+      "source": "/wedding/:path*",
+      "destination": "https://our-wedding-beta-ten.vercel.app/wedding/:path*"
+    }
+  ]
+}
